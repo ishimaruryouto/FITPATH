@@ -1,0 +1,115 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.group_wrap {
+    width: 90vw;
+    font-family: "IBM Plex Sans JP" sans-serif;
+    /* border: 1px solid tomato; */
+    margin: 0 auto;
+}
+
+.room {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.room_button p {
+    font-size: 1.6rem;
+}
+
+.room_button input {
+    width: 150px;
+    height: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* .number_of_people {
+    border: 1px solid tomato;
+    margin: 0 auto;
+} */
+
+label {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+select {
+    display: block;
+    width: 280px;
+    height: 40px;
+    font-size: 1.6rem;
+    padding-left: 20px;
+    background-color: #fff;
+    color: #000;
+    /* margin: 0 auto; */
+}
+
+option {
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+button a {
+    color: #000;
+    font-size: 1.8rem;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #D9D9D9;
+    position: fixed;
+    bottom: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 80px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav img {
+    width: 45px;
+    height: 45px;
+}

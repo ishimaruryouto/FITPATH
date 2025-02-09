@@ -1,0 +1,139 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    color: #fff;
+    font-family: "STIX Two Text", serif;
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 35px 0;
+}
+
+h2 {
+    color: #fff;
+    font-family: "STIX Two Text", serif;
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main_container {
+    font-family: "IBM Plex Sans JP" serif;
+    color: #fff;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.part img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.muscle p {
+    font-size: 1.6rem;
+}
+
+.muscle p:nth-child(1) {
+    position: absolute;
+    top: 180px;
+    left: 140px;
+}
+
+.muscle p:nth-child(2) {
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+
+.muscle p:nth-child(3) {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 20px;
+}
+
+.muscle p:nth-child(4) {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    width: 20px;
+}
+
+
+.menu {
+    margin-top: 70px;
+}
+
+.main_content {
+    margin-bottom: 40px;
+}
+
+.main_content p:nth-child(1) {
+    font-size: 1.8rem;
+}
+
+.main_content p:nth-child(2) {
+    font-size: 1.6rem;
+}
+
+.main_content img {
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.main_content:nth-child(4) img {
+    object-position: 50% 40%;
+}
+
+.main_content:nth-child(5) img {
+    object-position: 50% 37%;
+}
+
+.main_content:nth-child(6) img {
+    object-position: 50% 45%;
+}
+
+
+
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #D9D9D9;
+    position: fixed;
+    bottom: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 80px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav img {
+    width: 45px;
+    height: 45px;
+}

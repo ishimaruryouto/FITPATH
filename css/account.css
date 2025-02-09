@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 75vw;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.account_wrap {
+    text-align: center;
+    padding-top: 100px;
+}
